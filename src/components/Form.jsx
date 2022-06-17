@@ -19,7 +19,7 @@ export const Form = () => {
         const employee = employeeByID(id);
         setForm(employee)
     }
-  }, [id])
+  }, [id, setForm])
 
   const onSubmit = (e) => {
     id ? editEmployee(id, inputValues) : addEmployee(inputValues);
