@@ -19,11 +19,11 @@ export const Form = () => {
         const employee = employeeByID(id);
         setForm(employee)
     }
-  }, [id, setForm])
+  }, [id])
 
   const onSubmit = (e) => {
+    e.preventDefault();
     id ? editEmployee(id, inputValues) : addEmployee(inputValues);
-    console.log(inputValues);
     setShowAlert(true);
     Default();
 
@@ -48,7 +48,7 @@ export const Form = () => {
         showAlert && (
             <div className="px-5">
                 <div className="alert alert-success" role="alert">
-                    Funcionario Adicionado.
+                    Finalizado com sucesso.
                 </div>
             </div>
         )
