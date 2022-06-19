@@ -2,7 +2,7 @@
 
 ### TECNOLOGIAS UTILIZADAS
 
-React (react-dom, BrowserRouter, uuid), Bootstrap, Heroku;
+React (react-dom, BrowserRouter, uuid), LocalStorage, Bootstrap, Heroku;
 
 PROJETO: https://crud-localstorage.herokuapp.com/
 
