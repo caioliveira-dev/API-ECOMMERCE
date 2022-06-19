@@ -1,7 +1,7 @@
-# CRUD FUNCIONARIOS
+# CRUD - FUNCIONARIOS
 
-### TECNOLOGIA UTILIZADA
+### TECNOLOGIAS UTILIZADAS
 
-React (react-dom, BrowserRouter, uuid) Bootstrap;
+React (react-dom, BrowserRouter, uuid), Bootstrap, Heroku;
 
 v1.0
